@@ -1,0 +1,92 @@
+.venv
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+.mypy_cache/
+.dmypy.json
+.pytype/
+.pyright/
+.pyup/
+.pyenv/
+celerybeat-schedule
+instance/
+.webassets-cache
+.scrapy/
+docs/_build/
+target/
+.ipynb_checkpoints
+.env
+.env.*.local
+.local/
+# Runtime logs and generated data
+logs/
+logs/*.jsonl
+data/
+data/*.jsonl
+*.log
+
+# Development environments
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.sqlite3
+*.db
+
+# Secrets and keys
+*.pem
+*.key
+.secrets/
+secrets/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Additional ignores for this project
+# Local model artifacts and checkpoints (may be large)
+models/
+checkpoints/
+
+# Node packages (if any subprojects)
+node_modules/
+
+# Credential / secret files (do NOT commit real API keys)
+credentials.json
+secrets.json
+settings_local.py
+
+# Large media files (optional - adjust if you want to track media)
+*.mp3
+*.wav
