@@ -11,4 +11,4 @@ def test_dummy_tts_prints(capfd):
     t = DummyTTSEngine()
     t.speak("hi there")
     out = capfd.readouterr().out
-    assert "TTS -> hi there" in out
+    assert "[TTS] hi there" in out
